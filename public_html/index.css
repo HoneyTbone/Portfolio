@@ -1,0 +1,68 @@
+/* 
+    Color Theme Pallete for Portfolio site
+    https://coolors.co/606c38-283618-fefae0-dda15e-bc6c25 
+
+    LGreen: #606C38
+    DGreen: #283618
+    Light: #FEFAE0
+    LOrange: #DDA15E
+    DOrange: #BC6C25
+    DDBlue: #1871CA
+    DBlue: #1976D2
+    LBlue: #61DAEF
+*/
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1976D2;
+  color: white;
+  text-align: center;
+}
+
+
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #1976D2;
+  color: #FEFAE0;
+  display: flex;
+  height: 65px;
+  font-size: 14px;
+  align-items: center;  
+  justify-content: center;
+}
+
+.body {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #606C38;
+  font-size: 30px;
+  text-align: center;
+}
+
+button {
+  background-color: #1976D2;
+  border: none;
+  color: #FEFAE0;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #1871CA;
+}
