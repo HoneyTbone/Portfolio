@@ -12,7 +12,7 @@
     LBlue: #61DAEF
 */
 
-.footer {
+/* .footer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -20,39 +20,45 @@
   background-color: #1976D2;
   color: white;
   text-align: center;
-}
-
+} */
 
 .header {
-  position: fixed;
+  position:fixed;
   left: 0;
   top: 0;
   width: 100%;
-  background-color: #1976D2;
-  color: #FEFAE0;
-  display: flex;
+  background-color: black;
+  color: white;
+  display:inline-table;   
   height: 65px;
-  font-size: 14px;
-  align-items: center;  
-  justify-content: center;
+  font-size: 16px;
+  text-align: left;
+  /* align-items: center;  
+  justify-content: center; */
 }
 
-.body {
-  position: fixed;
+.head{
+  text-align: left;
+  margin-left: 250px;
+}
+
+body {
+  position: relative;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
   width: 100%;
-  background-color: #606C38;
+  background-color: #f6f6f6;
   font-size: 30px;
   text-align: center;
+  margin-top: 150px;
 }
 
 button {
   background-color: #1976D2;
   border: none;
-  color: #FEFAE0;
+  color: white;
   text-align: right;
   text-decoration: none;
   display: inline-block;
