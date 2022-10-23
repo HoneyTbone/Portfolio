@@ -12,7 +12,7 @@
     LBlue: #61DAEF
 */
 
-/* .footer {
+.footer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -20,21 +20,21 @@
   background-color: #1976D2;
   color: white;
   text-align: center;
-} */
+}
 
 .header {
-  position:fixed;
+  position:relative;
   left: 0;
   top: 0;
   width: 100%;
   background-color: black;
   color: white;
-  display:inline-table;   
-  height: 65px;
+  display:inline-flex;   
+  height: 150px;
   font-size: 16px;
   text-align: left;
-  /* align-items: center;  
-  justify-content: center; */
+  align-items: center;  
+  justify-content: center;
 }
 
 .head{
@@ -52,7 +52,8 @@ body {
   background-color: #f6f6f6;
   font-size: 30px;
   text-align: center;
-  margin-top: 150px;
+  /* margin-top: 250px; */
+  font-family:Arial, Helvetica, sans-serif
 }
 
 button {
