@@ -11,6 +11,11 @@
     DBlue: #1976D2
     LBlue: #61DAEF
 */
+@media screen and (max-width: 800px) {
+  footer{
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+      }
+}
 
 .footer {
   position: relative;
@@ -32,9 +37,6 @@
   display:inline-flex;   
   height: 150px;
   font-size: 16px;
-  text-align: left;
-  align-items: center;  
-  justify-content: center;
 }
 
 .head{
@@ -56,6 +58,8 @@ body {
 #page-container {
   position: relative;
   min-height: 100vh;
+  display: block;
+  margin-bottom: 30px;
 }
 
 #content-wrap {
