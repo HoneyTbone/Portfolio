@@ -21,7 +21,7 @@ class MyFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <footer class="footer">
-        © 2022 - Tyson Toller - HoneyTbone33@gmail.com
+        © 2022 - Tyson Toller - HoneyTbone33@gmail.com - Design inspired by www.michaellevall.com/
         </footer>
     `
     }

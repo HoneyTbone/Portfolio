@@ -11,9 +11,14 @@
     DBlue: #1976D2
     LBlue: #61DAEF
 */
-@media screen and (max-width: 800px) {
-  footer{
-      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+@media screen and (max-width: 908px) {
+  .paragraph, footer{
+      width: 90%; /* The width is 100%, when the viewport is 800px or smaller */
+      }
+}
+@media screen and (min-width: 909px) {
+  .paragraph {
+      width: 850px; /* The width is 100%, when the viewport is 800px or smaller */
       }
 }
 
@@ -54,15 +59,4 @@ body {
   width: 100%;
   background-color: #f6f6f6;
   margin:0;
-}
-
-#page-container {
-  position: relative;
-  min-height: 100vh;
-  display: block;
-  margin-bottom: 30px;
-}
-
-#content-wrap {
-  padding-bottom: 2.5rem;    /* Footer height */
 }
