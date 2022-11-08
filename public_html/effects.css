@@ -22,6 +22,11 @@ h2 {
     align-items: left;
 }
 
+#hp  {
+    float: left;    
+     margin: 0 15px 0 0;
+    }
+
 .title {
     border-bottom: 1px solid #ddd;
     box-shadow: 0 1px 0 0 #fff;
