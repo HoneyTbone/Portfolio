@@ -1,11 +1,12 @@
 .projectImg {
     width: 700px;
-    height: 400px;
+    height: auto;
     max-width: 100%;
+    max-height: auto;
 }
 
 iframe {
-    max-width: 100%;
+    max-width: 95%;
     min-height: auto;
 }
 
@@ -31,9 +32,8 @@ h2 {
     font-size: 34px;
     line-height: 1;
     margin: 0 0 24px;
-    text-align: justify;
-    text-justify: inter-word;
     padding-top: 35px;
+    text-align: left;
 }
 
 button {
@@ -54,9 +54,13 @@ button:hover {
     background-color: #1871CA;
 }
 
-.git {
+.info {
     font-size: 25px;
     text-align: center;
+    text-decoration: none;
+}
+.info:hover{
+    text-decoration: underline;
 }
 
 .paragraph {
