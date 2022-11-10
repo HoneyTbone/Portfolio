@@ -5,7 +5,7 @@ class MyHeader extends HTMLElement {
         <header>
             <div class="head">
                 <h1>Tyson Toller's Game Design Portfolio</h1>
-                <a href="projects.html"> <button>PROJECTS</button></a>
+                <a href="projects.html"> <button class="active">PROJECTS</button></a>
                 <a href="aboutme.html"><button>ABOUT ME</button></a>
                 <a href="resume.html"><button>RESUME</button></a>
             </div>
@@ -21,7 +21,7 @@ class MyFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <footer class="footer">
-        <b style="text-align:left">© 2022 - Tyson Toller - HoneyTbone33@gmail.com</b> <b style="text-align:right">Designed and Managed by Tyson Toller</b>
+        <b style="float:left">© 2022 - HoneyTbone33@gmail.com</b> <b style="float:right">Designed and Managed by Tyson Toller</b>
         </footer>
     `
     }

@@ -30,15 +30,16 @@ h2 {
 .title {
     border-bottom: 1px solid #ddd;
     box-shadow: 0 1px 0 0 #fff;
-    font-size: 30px;
-    /* margin: 0 0 5px; */
-    /* padding-left: 5%; */
     text-shadow: 0 1px 1px #fff;
     font-size: 34px;
     line-height: 1;
     margin: 0 0 24px;
     padding-top: 35px;
     text-align: left;
+}
+
+#minititle {
+    font-size: 34px;
 }
 
 button {
@@ -56,6 +57,10 @@ button {
 }
 
 button:hover {
+    background-color: grey;
+}
+
+.active{
     background-color: #1871CA;
 }
 
@@ -76,6 +81,18 @@ button:hover {
     margin: 0 0 24px;
     text-align: justify;
     text-justify: inter-word;
-    padding-left: 15px;
+    padding-left: 15px; 
     padding-right: 15px;
 }
+
+.checked{
+    color: orange;
+}
+
+.unchecked{
+    color:grey;
+}   
+
+#resume{
+    margin-top: 45px;
+  }
