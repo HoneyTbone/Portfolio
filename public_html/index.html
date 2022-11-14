@@ -1,8 +1,3 @@
-<!-- 
-    Default Page for Site
-    Home Page Directory
-    - Tyson Toller -
- -->
 
 <!DOCTYPE html>
 <html>
@@ -10,25 +5,48 @@
 <head>
     <link rel="stylesheet" type="text/css" href="index.css" media="screen" /> <!-- Links to the CSS for the page -->
     <link rel="stylesheet" type="text/css" href="effects.css" media="screen" /> <!-- Links to the CSS for the page -->
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <script type="module" src="components.js"></script>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <title> Projects - Tyson Toller</title>
 </head>
+<meta name="viewport" content="width=device-width, initial-scale">
+
+<my-header></my-header>
 
 <body>
     <div id="page-container">
         <div id="content-wrap">
             <!-- all other page content -->
             <center>
-                <br><br><br><br><br><br><br><br><br>
-                Tyson Toller's Portfolio<br>
-                This site is currently under development<br>
-                <a href="projects.html"><button>Continue</button></a><br>
-                <a href="https://sites.google.com/view/tyson-toller/home" target="_blank"><button>Old Site</button></a>
-                <!-- Links to the current stable build for the site -->
-                <br><br><br>
+            <div class="title">Projects and Demos</div>
+            
+                <table>
+                    <tr><a class="info" href="stuckatwork.html">Stuck at Work &#8211; Aug 2021 to Dec 2021 &#8211; VR &#8211; Unity &#8211; Capstone </a></tr><br><br>
+                    <tr><a href="stuckatwork.html"><img class="projectImg" src="images/stuckatwork/StuckAtWorkCover.png"></a></tr><br><br>
+                    <tr><a class="info" href="mazesend.html">Maze's End &#8211; Jan 2017 to Current &#8211; Board Game &#8211; Self Publishing</a></tr><br><br>
+                    <tr><a href="mazesend.html"><img class="projectImg" src="images/mazesend/Maze'sEndCover.png"></a></tr><br><br>
+                    <tr><a class="info" href="pixelleap.html">Pixel Leap &#8211; Dec 2021 to March 2022 &#8211; Mobile &#8211; Unity &#8211; Solo </a></tr><br><br>
+                    <tr><a href="pixelleap.html"><img class="projectImg" src="images/pixelleap/PixelLeapCover.png"></a></tr><br><br>
+                    <tr><a class="info" href="https://honeytbone33.itch.io/" target="_blank">Game Jam &#8211; Projects &#8211; Unity &#8211; Itch.io</a></tr><br><br>
+                </table>
+                <table>
+                    <tr>
+                        <th><a href="https://honeytbone33.itch.io/easy-3d" target="_blank"><img class="table" src="images/itch.io/01.png"></a></th>
+                        <th><a href="https://honeytbone33.itch.io/hillbilly-fishing" target="_blank"><img class="table" src="images/itch.io/02.png"></a></th>
+                        <th><a href="https://honeytbone33.itch.io/ghosted" target="_blank"><img class="table" src="images/itch.io/03.png"></a></th>
+                    </tr>
+                    <tr>
+                        <th><a href="https://honeytbone33.itch.io/100-coins" target="_blank"><img class="table" src="images/itch.io/04.png"></a></th>
+                        <th><a href="https://raniem1109.itch.io/half-hearted" target="_blank"><img class="table" src="images/itch.io/05.png"></a></th>
+                        <th><a href="https://honeytbone33.itch.io/snow-thieves" target="_blank"><img class="table" src="images/itch.io/06.png"></a></th>
+                    </tr>
+                </table>
             </center>
         </div>
     </div>
+
 </body>
+
+<my-footer></my-footer>
 
 </html>
