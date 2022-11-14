@@ -20,7 +20,7 @@
     width: 95%;
     /* The width is 100%, when the viewport is 800px or smaller */
   }
-  .table, .PLtable{
+  .table, .PLtable, .Cardtable{
     height:auto;
     width: 99%;
   }
@@ -40,6 +40,10 @@
   .PLtable{
     width:280px; 
     height:280px;
+  }
+  .Cardtable{
+    width:283px; 
+    height:auto;
   }
 }
 
