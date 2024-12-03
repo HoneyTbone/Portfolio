@@ -1,7 +1,7 @@
 class MyHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-        <center>
+    <center>
         <header>
             <div class="head">
                 <h1>Tyson Toller's Game Design Portfolio</h1>
