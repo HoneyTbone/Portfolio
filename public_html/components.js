@@ -21,7 +21,7 @@ class MyFooter extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
         <footer class="footer">
-        <b style="float:left">© 2022 - HoneyTbone33@gmail.com</b> <b style="float:right">Designed and Managed by Tyson Toller</b>
+        <p> style="float:left">© 2024 - TysonToller@gmail.com</b> <b style="float:right">Designed and Managed by Tyson Toller</p>
         </footer>
     `
     }
