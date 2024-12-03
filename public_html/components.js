@@ -5,7 +5,7 @@ class MyHeader extends HTMLElement {
         <header>
             <div class="head">
                 <h1>Tyson Toller's Game Design Portfolio</h1>
-                <a href="projects.html"> <button class="active">PROJECTS</button></a>
+                <a href="index.html"> <button class="active">PROJECTS</button></a>
                 <a href="aboutme.html"><button>ABOUT ME</button></a>
                 <a href="resume.html"><button>RESUME</button></a>
             </div>
