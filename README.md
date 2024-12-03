@@ -6,7 +6,6 @@ NAVIGATION:
 <br>
 
 ../index    | Default page<br>
-../Projects | Home Page<br>
 ../Resume   | contact info and Resume<br>
 ../AboutMe  | Fun Facts<br>
 
